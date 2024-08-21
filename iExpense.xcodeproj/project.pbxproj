@@ -11,6 +11,8 @@
 		157FAC1E2C71E0E700EF2F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157FAC1D2C71E0E700EF2F32 /* ContentView.swift */; };
 		157FAC202C71E0E900EF2F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157FAC1F2C71E0E900EF2F32 /* Assets.xcassets */; };
 		157FAC232C71E0E900EF2F32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157FAC222C71E0E900EF2F32 /* Preview Assets.xcassets */; };
+		157FAC2A2C733F3F00EF2F32 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157FAC292C733F3F00EF2F32 /* ViewModel.swift */; };
+		157FAC2C2C733F6B00EF2F32 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157FAC2B2C733F6B00EF2F32 /* AddExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		157FAC1D2C71E0E700EF2F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		157FAC1F2C71E0E900EF2F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157FAC222C71E0E900EF2F32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		157FAC292C733F3F00EF2F32 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		157FAC2B2C733F6B00EF2F32 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				157FAC1D2C71E0E700EF2F32 /* ContentView.swift */,
 				157FAC1F2C71E0E900EF2F32 /* Assets.xcassets */,
 				157FAC212C71E0E900EF2F32 /* Preview Content */,
+				157FAC292C733F3F00EF2F32 /* ViewModel.swift */,
+				157FAC2B2C733F6B00EF2F32 /* AddExpenseView.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				157FAC1E2C71E0E700EF2F32 /* ContentView.swift in Sources */,
+				157FAC2A2C733F3F00EF2F32 /* ViewModel.swift in Sources */,
 				157FAC1C2C71E0E700EF2F32 /* iExpenseApp.swift in Sources */,
+				157FAC2C2C733F6B00EF2F32 /* AddExpenseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
